@@ -1,0 +1,9 @@
+name: 2022test01
+run-name: 2022test01 run-name
+on: [push]
+jobs:
+  2022test01jobs:
+  steps:
+    - run: echo "2022test01 echo"
+    - run: ip address
+    - run: gcc -v
