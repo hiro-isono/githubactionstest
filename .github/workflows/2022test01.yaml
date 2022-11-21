@@ -2,7 +2,7 @@ name: 2022test01
 run-name: 2022test01 run-name
 on: [push]
 jobs:
-  2022test01jobs:
+  test-jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "2022test01 echo"
